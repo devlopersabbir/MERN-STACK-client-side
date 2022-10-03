@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(11, 11, 21);
+  border-radius: 10px;
+}
+
+.productSnd {
+  visibility: visible;
+  opacity: 1;
+  transition: ease-out 0.7s;
+}
+
+.productSnd:hover {
+  visibility: hidden;
+  opacity: 0;
+  transition: ease-out 0.7s;
+}
+
+
+
+
+
+.zoomed-image {
+  background-size: cover;
+  cursor: pointer;
+}
